@@ -45,7 +45,7 @@ You can install this library from Quicklisp, but you want to receive updates qui
 
 <a id="x-28-23A-28-2813-29-20BASE-CHAR-20-2E-20-22CLACK-SITEMAP-22-29-20PACKAGE-29"></a>
 
-#### [package](761e) `clack-sitemap`
+#### [package](9fbc) `clack-sitemap`
 
 <a id="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -53,15 +53,15 @@ You can install this library from Quicklisp, but you want to receive updates qui
 
 <a id="x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-NEWS-20FUNCTION-29"></a>
 
-##### [function](35f1) `clack-sitemap/builder:make-news` publication-name publication-lang article-title date &key access genres keywords stock-tickers
+##### [function](a8aa) `clack-sitemap/builder:make-news` publication-name publication-lang article-title date &key access genres keywords stock-tickers
 
 <a id="x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-REF-20FUNCTION-29"></a>
 
-##### [function](817a) `clack-sitemap/builder:make-ref` loc &key lastmod
+##### [function](d1b1) `clack-sitemap/builder:make-ref` loc &key lastmod
 
 <a id="x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-URL-20FUNCTION-29"></a>
 
-##### [function](8a7e) `clack-sitemap/builder:make-url` loc &key lastmod changefreq priority news
+##### [function](70c0) `clack-sitemap/builder:make-url` loc &key lastmod changefreq priority news
 
 <a id="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40CLACK-SITEMAP-2FBUILDER-3FPACKAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -69,7 +69,7 @@ You can install this library from Quicklisp, but you want to receive updates qui
 
 <a id="x-28-23A-28-2821-29-20BASE-CHAR-20-2E-20-22CLACK-SITEMAP-2FBUILDER-22-29-20PACKAGE-29"></a>
 
-#### [package](3944) `clack-sitemap/builder`
+#### [package](fd5a) `clack-sitemap/builder`
 
 <a id="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-2FBUILDER-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29"></a>
 
@@ -77,30 +77,30 @@ You can install this library from Quicklisp, but you want to receive updates qui
 
 <a id="x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-NEWS-20FUNCTION-29"></a>
 
-##### [function](35f1) `clack-sitemap/builder:make-news` publication-name publication-lang article-title date &key access genres keywords stock-tickers
+##### [function](a8aa) `clack-sitemap/builder:make-news` publication-name publication-lang article-title date &key access genres keywords stock-tickers
 
 <a id="x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-REF-20FUNCTION-29"></a>
 
-##### [function](817a) `clack-sitemap/builder:make-ref` loc &key lastmod
+##### [function](d1b1) `clack-sitemap/builder:make-ref` loc &key lastmod
 
 <a id="x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-URL-20FUNCTION-29"></a>
 
-##### [function](8a7e) `clack-sitemap/builder:make-url` loc &key lastmod changefreq priority news
+##### [function](70c0) `clack-sitemap/builder:make-url` loc &key lastmod changefreq priority news
 
 <a id="x-28CLACK-SITEMAP-2FBUILDER-3ARENDER-SITEMAP-20FUNCTION-29"></a>
 
-##### [function](c03e) `clack-sitemap/builder:render-sitemap` items &key stream base-url
+##### [function](96ce) `clack-sitemap/builder:render-sitemap` items &key stream base-url
 
 
 [153b]: https://40ants.com/clack-sitemap/
 [ea7f]: https://github.com/40ants/clack-sitemap
 [2869]: https://github.com/40ants/clack-sitemap/actions
-[3944]: https://github.com/40ants/clack-sitemap/blob/330458a53b8a65e7731d8f41a36a38049ae119a4/src/builder.lisp#L1
-[c03e]: https://github.com/40ants/clack-sitemap/blob/330458a53b8a65e7731d8f41a36a38049ae119a4/src/builder.lisp#L214
-[8a7e]: https://github.com/40ants/clack-sitemap/blob/330458a53b8a65e7731d8f41a36a38049ae119a4/src/builder.lisp#L65
-[817a]: https://github.com/40ants/clack-sitemap/blob/330458a53b8a65e7731d8f41a36a38049ae119a4/src/builder.lisp#L79
-[35f1]: https://github.com/40ants/clack-sitemap/blob/330458a53b8a65e7731d8f41a36a38049ae119a4/src/builder.lisp#L95
-[761e]: https://github.com/40ants/clack-sitemap/blob/330458a53b8a65e7731d8f41a36a38049ae119a4/src/core.lisp#L1
+[fd5a]: https://github.com/40ants/clack-sitemap/blob/d6bbbd0d49d9008844f8ebe4055da8319d79807c/src/builder.lisp#L1
+[96ce]: https://github.com/40ants/clack-sitemap/blob/d6bbbd0d49d9008844f8ebe4055da8319d79807c/src/builder.lisp#L214
+[70c0]: https://github.com/40ants/clack-sitemap/blob/d6bbbd0d49d9008844f8ebe4055da8319d79807c/src/builder.lisp#L65
+[d1b1]: https://github.com/40ants/clack-sitemap/blob/d6bbbd0d49d9008844f8ebe4055da8319d79807c/src/builder.lisp#L79
+[a8aa]: https://github.com/40ants/clack-sitemap/blob/d6bbbd0d49d9008844f8ebe4055da8319d79807c/src/builder.lisp#L95
+[9fbc]: https://github.com/40ants/clack-sitemap/blob/d6bbbd0d49d9008844f8ebe4055da8319d79807c/src/core.lisp#L1
 [c765]: https://github.com/40ants/clack-sitemap/issues
 [c9ae]: https://quickdocs.org/anaphora
 [dfc0]: https://quickdocs.org/cl-sitemaps
