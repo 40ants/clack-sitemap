@@ -1,6 +1,7 @@
 (uiop:define-package #:clack-sitemap/middleware
   (:use #:cl)
-  (:nicknames #:lack.middleware.sitemap)
+  (:nicknames #:lack.middleware.sitemap
+              #:lack/middleware/sitemap)
   (:import-from #:serapeum
                 #:soft-list-of)
   (:import-from #:function-cache)
@@ -22,12 +23,18 @@
 
 
 (defun full-url (env)
-  (render-uri
-   (quri:make-uri :scheme (getf env :url-scheme)
-                  :host (getf env :server-name)
-                  :port (getf env :server-port 80)
-                  :path (getf env :request-uri)
-                  :query (getf env :query-string))))
+  (let* ((headers (getf env :headers))
+         (scheme (or (gethash "x-forwarded-proto" headers)
+                     (getf env :url-scheme)))
+         (port (or (gethash "x-forwarded-port" headers)
+                   (getf env :server-port)
+                   80)))
+    (render-uri
+     (quri:make-uri :scheme scheme
+                    :host (getf env :server-name)
+                    :port port
+                    :path (getf env :request-uri)
+                    :query (getf env :query-string)))))
 
 
 (defun sitemap-middleware-builder (app sitemap-items &key
