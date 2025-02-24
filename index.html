@@ -1,0 +1,112 @@
+<html lang=en>
+ <head>
+  <meta charset=UTF-8><meta name=viewport
+      content="width=device-width, initial-scale=1">
+  <title>clack-sitemap - Sitemap generator for your site.</title>
+  <link rel=alternate
+        href="https://40ants.com/clack-sitemap/changelog.xml"
+        type="application/rss+xml">
+  <link rel=stylesheet type="text/css"
+        href=theme.css>
+  <script type="text/javascript" src=jquery.js></script>
+  <script type="text/javascript" src=toc.js></script>
+  <script type="text/javascript">$(document).ready(function() {$('a:has(img)').css('border-bottom', 'none')})</script>
+  <link rel=stylesheet type="text/css"
+      href=highlight.min.css>
+  <script type="text/javascript"
+          src=highlight.min.js></script>
+  <script type="text/javascript">hljs.highlightAll();</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FL71WXK73K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-FL71WXK73K');
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+       (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+       m[i].l=1*new Date();
+       for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+       k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+       (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+       ym(42462884, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+       });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/42462884" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+ </head>
+ <body>
+  <div class=page><a id=fork-me href="https://github.com/40ants/clack-sitemap">Fork me on GitHub</a>
+   <div class=navbar>
+    <div class=navbar-inner>
+     <a class=brand href="/">
+      <img class=logo
+           src="https://40ants.com/img/logo.svg"></a>
+     <ul class=nav>
+      <li><a href="/posts/">Blog</a>
+      <li><a href="/ru/posts/">Blog (RU)</a>
+      <li><a href="/tips/">Lisp Tips</a>
+      <li><a href="/projects/">Our Projects</a>
+      <li><a href="/about/">About</a>
+     </ul>
+    </div>
+   </div>
+   <input type=checkbox id=sidebar-check>
+   <label for=sidebar-check>
+    <div id=sidebar-trigger>
+     <span></span><span></span><span></span>
+    </div></label><div class=sidebar><div class=header><form class=search method=GET action="search/">
+      <input type=text name=q>
+      <input type=submit value=Search><span id=search-progress></span>
+     </form>
+    </div><div class=content><div class=page-toc><ul><li><p><a href="#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-40INDEX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="" data-node="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-40INDEX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">clack-sitemap - Sitemap generator for your site.</a></p><ul><li><p><a href="#clack-sitemap-asdf-system-details" data-document="" data-node="clack-sitemap-asdf-system-details">CLACK-SITEMAP ASDF System Details</a></p></li><li><p><a href="#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40INSTALLATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="" data-node="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40INSTALLATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Installation</a></p></li><li><p><a href="#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40USAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="" data-node="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40USAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Usage</a></p></li><li><p><a href="#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40API-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="" data-node="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40API-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">API</a></p><ul><li><p><a href="#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40CLACK-SITEMAP-3FPACKAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="" data-node="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40CLACK-SITEMAP-3FPACKAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">CLACK-SITEMAP</a></p><ul><li><p><a href="#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="" data-node="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Functions</a></p></li></ul></li><li><p><a href="#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40CLACK-SITEMAP-2FBUILDER-3FPACKAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="" data-node="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40CLACK-SITEMAP-2FBUILDER-3FPACKAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">CLACK-SITEMAP/BUILDER</a></p><ul><li><p><a href="#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-2FBUILDER-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="" data-node="x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-2FBUILDER-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">Functions</a></p></li></ul></li></ul></li></ul></li><li><p><a href="changelog/#x-28CLACK-SITEMAP-DOCS-2FCHANGELOG-3A-40CHANGELOG-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29" data-document="changelog/" data-node="x-28CLACK-SITEMAP-DOCS-2FCHANGELOG-3A-40CHANGELOG-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29">ChangeLog</a></p></li></ul>
+     </div>
+    </div><div class=footer>
+     <a href="https://40ants.com/doc">[generated by 40ANTS-DOC]</a>
+    </div>
+   </div><div class=content role=main><h1>clack-sitemap - Sitemap generator for your site.<a class=header-link
+     href=#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-40INDEX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-40INDEX-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h1><h2 id="clack-sitemap-asdf-system-details">CLACK-SITEMAP ASDF System Details</h2><ul><li><p>Description: Sitemap generator for your site.</p></li><li><p>Licence: Unlicense</p></li><li><p>Author: Alexander Artemenko &lt;svetlyak.40wt@gmail.com&gt;</p></li><li><p>Homepage: <a href="https://40ants.com/clack-sitemap/">https://40ants.com/clack-sitemap/</a></p></li><li><p>Bug tracker: <a href="https://github.com/40ants/clack-sitemap/issues">https://github.com/40ants/clack-sitemap/issues</a></p></li><li><p>Source control: <a href="https://github.com/40ants/clack-sitemap">GIT</a></p></li><li><p>Depends on: <a href="https://quickdocs.org/anaphora">anaphora</a>, <a href="https://quickdocs.org/cl-sitemaps">cl-sitemaps</a>, <a href="https://quickdocs.org/cxml">cxml</a>, <a href="https://quickdocs.org/function-cache">function-cache</a>, <a href="https://quickdocs.org/local-time">local-time</a>, <a href="https://quickdocs.org/quri">quri</a>, <a href="https://quickdocs.org/serapeum">serapeum</a></p></li></ul><p><a href="https://github.com/40ants/clack-sitemap/actions"><img src="https://github-actions.40ants.com/40ants/clack-sitemap/matrix.svg?only=ci.run-tests"/></a></p><p><img src="http://quickdocs.org/badge/clack-sitemap.svg"/></p><h2>Installation<a class=header-link
+     href=#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40INSTALLATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40INSTALLATION-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><p>You can install this library from Quicklisp, but you want to receive updates quickly, then install it from Ultralisp.org:</p><pre><code class="">(ql-dist:install-dist &quot;http://dist.ultralisp.org/&quot;
+                      :prompt nil)
+(ql:quickload :clack-sitemap)</code></pre><h2>Usage<a class=header-link
+     href=#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40USAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40USAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><p><code>TODO</code>: Write a library description. Put some examples here.</p><h2>API<a class=header-link
+     href=#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40API-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40API-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h2><h3>CLACK-SITEMAP<a class=header-link
+     href=#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40CLACK-SITEMAP-3FPACKAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40CLACK-SITEMAP-3FPACKAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h3><div class=reference-bullet><div class=reference-bullet-header><a class=locative-type href="https://github.com/40ants/clack-sitemap/blob/17d891b846a4ced05b30c16eca0d5a3cf28d61a9/src/core.lisp#L1">package</a><div class=reference-object><div class=object-name><a href=#x-28-23A-28-2813-29-20BASE-CHAR-20-2E-20-22CLACK-SITEMAP-22-29-20PACKAGE-29 id=x-28-23A-28-2813-29-20BASE-CHAR-20-2E-20-22CLACK-SITEMAP-22-29-20PACKAGE-29>clack-sitemap</a></div></div><a class=bullet-link href=#x-28-23A-28-2813-29-20BASE-CHAR-20-2E-20-22CLACK-SITEMAP-22-29-20PACKAGE-29></a></div></div><h4>Functions<a class=header-link
+     href=#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h4><div class=reference-bullet><div class=reference-bullet-header><a class=locative-type href="https://github.com/40ants/clack-sitemap/blob/17d891b846a4ced05b30c16eca0d5a3cf28d61a9/src/builder.lisp#L95">function</a><div class=reference-object><div class=object-name><a href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-NEWS-20FUNCTION-29 id=x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-NEWS-20FUNCTION-29>clack-sitemap/builder:make-news</a></div><div class=object-args><span class=locative-args>publication-name publication-lang article-title date &amp;key access genres keywords stock-tickers</span></div></div><a class=bullet-link href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-NEWS-20FUNCTION-29></a></div></div><div class=reference-bullet><div class=reference-bullet-header><a class=locative-type href="https://github.com/40ants/clack-sitemap/blob/17d891b846a4ced05b30c16eca0d5a3cf28d61a9/src/builder.lisp#L79">function</a><div class=reference-object><div class=object-name><a href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-REF-20FUNCTION-29 id=x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-REF-20FUNCTION-29>clack-sitemap/builder:make-ref</a></div><div class=object-args><span class=locative-args>loc &amp;key lastmod</span></div></div><a class=bullet-link href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-REF-20FUNCTION-29></a></div></div><div class=reference-bullet><div class=reference-bullet-header><a class=locative-type href="https://github.com/40ants/clack-sitemap/blob/17d891b846a4ced05b30c16eca0d5a3cf28d61a9/src/builder.lisp#L65">function</a><div class=reference-object><div class=object-name><a href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-URL-20FUNCTION-29 id=x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-URL-20FUNCTION-29>clack-sitemap/builder:make-url</a></div><div class=object-args><span class=locative-args>loc &amp;key lastmod changefreq priority news</span></div></div><a class=bullet-link href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-URL-20FUNCTION-29></a></div></div><h3>CLACK-SITEMAP/BUILDER<a class=header-link
+     href=#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40CLACK-SITEMAP-2FBUILDER-3FPACKAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-40CLACK-SITEMAP-2FBUILDER-3FPACKAGE-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h3><div class=reference-bullet><div class=reference-bullet-header><a class=locative-type href="https://github.com/40ants/clack-sitemap/blob/17d891b846a4ced05b30c16eca0d5a3cf28d61a9/src/builder.lisp#L1">package</a><div class=reference-object><div class=object-name><a href=#x-28-23A-28-2821-29-20BASE-CHAR-20-2E-20-22CLACK-SITEMAP-2FBUILDER-22-29-20PACKAGE-29 id=x-28-23A-28-2821-29-20BASE-CHAR-20-2E-20-22CLACK-SITEMAP-2FBUILDER-22-29-20PACKAGE-29>clack-sitemap/builder</a></div></div><a class=bullet-link href=#x-28-23A-28-2821-29-20BASE-CHAR-20-2E-20-22CLACK-SITEMAP-2FBUILDER-22-29-20PACKAGE-29></a></div></div><h4>Functions<a class=header-link
+     href=#x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-2FBUILDER-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29
+     title="Permalink to this headline"
+     id=x-28CLACK-SITEMAP-DOCS-2FINDEX-3A-3A-7C-40CLACK-SITEMAP-2FBUILDER-3FFunctions-SECTION-7C-2040ANTS-DOC-2FLOCATIVES-3ASECTION-29></a></h4><div class=reference-bullet><div class=reference-bullet-header><a class=locative-type href="https://github.com/40ants/clack-sitemap/blob/17d891b846a4ced05b30c16eca0d5a3cf28d61a9/src/builder.lisp#L95">function</a><div class=reference-object><div class=object-name><a href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-NEWS-20FUNCTION-29 id=x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-NEWS-20FUNCTION-29>clack-sitemap/builder:make-news</a></div><div class=object-args><span class=locative-args>publication-name publication-lang article-title date &amp;key access genres keywords stock-tickers</span></div></div><a class=bullet-link href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-NEWS-20FUNCTION-29></a></div></div><div class=reference-bullet><div class=reference-bullet-header><a class=locative-type href="https://github.com/40ants/clack-sitemap/blob/17d891b846a4ced05b30c16eca0d5a3cf28d61a9/src/builder.lisp#L79">function</a><div class=reference-object><div class=object-name><a href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-REF-20FUNCTION-29 id=x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-REF-20FUNCTION-29>clack-sitemap/builder:make-ref</a></div><div class=object-args><span class=locative-args>loc &amp;key lastmod</span></div></div><a class=bullet-link href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-REF-20FUNCTION-29></a></div></div><div class=reference-bullet><div class=reference-bullet-header><a class=locative-type href="https://github.com/40ants/clack-sitemap/blob/17d891b846a4ced05b30c16eca0d5a3cf28d61a9/src/builder.lisp#L65">function</a><div class=reference-object><div class=object-name><a href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-URL-20FUNCTION-29 id=x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-URL-20FUNCTION-29>clack-sitemap/builder:make-url</a></div><div class=object-args><span class=locative-args>loc &amp;key lastmod changefreq priority news</span></div></div><a class=bullet-link href=#x-28CLACK-SITEMAP-2FBUILDER-3AMAKE-URL-20FUNCTION-29></a></div></div><div class=reference-bullet><div class=reference-bullet-header><a class=locative-type href="https://github.com/40ants/clack-sitemap/blob/17d891b846a4ced05b30c16eca0d5a3cf28d61a9/src/builder.lisp#L214">function</a><div class=reference-object><div class=object-name><a href=#x-28CLACK-SITEMAP-2FBUILDER-3ARENDER-SITEMAP-20FUNCTION-29 id=x-28CLACK-SITEMAP-2FBUILDER-3ARENDER-SITEMAP-20FUNCTION-29>clack-sitemap/builder:render-sitemap</a></div><div class=object-args><span class=locative-args>items &amp;key stream base-url</span></div></div><a class=bullet-link href=#x-28CLACK-SITEMAP-2FBUILDER-3ARENDER-SITEMAP-20FUNCTION-29></a></div></div>
+   </div><div class=footer>
+    <hr class=separator>
+    <p class=fineprint>Created with passion by <em>40Ants</em><a class=lisp-logo
+     href="http://lisp-lang.org/">
+      <img
+           src="https://40ants.com/img/made-with-lisp.svg"></a>
+   </div>
+  </div>
+ </body>
+</html>
